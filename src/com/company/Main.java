@@ -12,8 +12,8 @@ public class Main {
         myList.add("crocus");
         myList.add("tulip");
         myList.add("lily");
-        System.out.println(myList);
-        System.out.println(reverseList(myList));
+        System.out.println("Список входной "+ myList);
+        System.out.println("Список перевернутый "+ reverseList(myList));
     }
 
     public static List reverseList(List list) {
