@@ -16,11 +16,11 @@ public class Main {
         System.out.println("Список перевернутый "+ reverseList(myList));
     }
 
-    public static List reverseList(List list) {
+    public static List<String> reverseList(List<String> list) {
         if (list == null || list.isEmpty()) {
             return null;
         } else {
-            List invertedList = new ArrayList();
+            List<String> invertedList = new ArrayList<>();
             for (int i = list.size() - 1; i >= 0; i--) {
                 invertedList.add(list.get(i));
             }
